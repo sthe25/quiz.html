@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre mim</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1> Um pouco sobre mim... </h1> 
+        <p> Oie! Vou te contar um pouco mais sobre mim nessa página! </p>
+    </header>
+
+   <main>
+
+        <!--Sobre mim-->
+        <section>
+            <h2> <strong> Vamos lá?</strong></h2>
+
+            <p>Me chamo Esther, tenho 22 anos e moro em São Paulo, sou apaixonada por animais, programação e inglês.</p>
+
+            <p>Atualmente, estou cursando Ciência de Dados e futuramente pretendo me especializar na <em> <b> área de dados e estatística, podendo contribuir com pesquisas e relevantes para a população. </b></em> </p> <br>
+
+            <p> Estou iniciando meus conteúdos no Instagram, com meu perfil que se chama: <a href="https://www.instagram.com/code.girlss/" target="_blank"> Code.Girls </a> e iniciando pela linguagem em <abbr title="Hyper Text Markup Language"> HTML </abbr>, assim aprendo e ensino mostrando as conquistas e as dificuldades na programação, abrindo espaço para outras garotas me acompanharem e compartilharem conhecimentos juntas!! </p>
+
+            <p>Minhas comidas preferidas são macarrão e purê de batata, eu sou vegetariana e não consumo carne há 5 anos. Já minha fruta preferida é melão, e a comida que eu menos gosto é <i>azeitona </i>. </p> <br>
+        </section>
+
+        <!--Pergunta 1: Animais-->
+        <section>
+
+                <h1>Não pode faltar...</h1>
+
+                <p>Como uma boa amante de bichinhos, vou deixar vocês adivinharem quais são meus animais favoritos!</p> <br>
+
+            <form>
+                <input type="radio" id="p1a" name="pergunta1">
+                <label for="p1a"> Gato</label> <br>
+                <input type="radio" name="p2b" id="pergunta2">
+                <label for="p2b">Cachorro</label> <br>
+                <input type="radio" id="p3c" name="pergunta3">
+                <label for="p3c">Peixe</label> <br>
+                <input type="radio" id="p4d" name="pergunta4">
+                <label for="p4d">Passarinho</label> <br>
+                <input type="radio" id="p5e" name="pergunta5">
+                <label for="p5r">Todos acima</label> <br>
+            </form>
+
+        </section>
+
+        <!--Sobre a pessoa-->
+        <section>
+
+            <h2>Agora é sua vez!</h2>
+            <p> Escreva quais são seus animais favoritos:</p>
+
+            <form>
+                <input type="text" name="p2" id="pergunta2" placeholder="Digite sua resposta...">
+                <button onclick="alert ('Resposta enviada')">Enviar</button>
+            </form>
+
+        </section>
+
+        <!--Upload de imagem-->
+        <section>
+
+            <h1>Me mostre seu animal favorito!</h1>
+            <p>Adicione abaixo a foto do seu animal favorito ou de estimação!</p>
+
+            <form>
+                <input type="file" name="p3" id="pergunta3">
+            </form>
+
+        </section>
+
+        <!--Qual comida eu não gosto-->
+        <section>
+
+            <h1>Quando me apresentei, comentei sobre uma comida que eu não gosto! Você lembra qual era?</h1>
+            <p>Selecione abaixo qual a opção correta:</p>
+
+            <form>
+
+                <select name="pergunta7" id="p7">
+                    <option value="Purê de Batatas">Purê de Batatas</option>
+                    <option value="Sopa">Sopa</option>
+                    <option value="Azeitona">Azeitona</option>
+                    <option value="Abobrinha">Abobrinha</option>
+
+                </select>
+
+            </form>
+
+        </section>
+
+        <!--Tabela de música-->
+        <section>
+
+            <h1>Para deixar meu dia mais feliz, eu complemento com música!</h1>
+            <p>Segue abaixo, uma lista com todos os meus cantores (a) preferidos:</p> <br>
+
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th> Cantores</th>
+                        <th> Minha música preferida</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td> Lana del Rey </td>
+                        <td> Cherry </td>
+                    </tr>
+                    <tr>
+                        <td> Billie Eilish</td>
+                        <td> Ocean Eyes</td>
+                    </tr>
+                    <tr>
+                         <td> SZA </td>
+                         <td> Open Arms</td>
+                    </tr>
+                    <tr>
+                        <td> Tyler the Creator</td>
+                        <td> Wusyaname</td>
+                    </tr>
+                    <tr>
+                        <td> Justin Bieber</td>
+                        <td> No Pressure</td>
+                    </tr>
+
+             </tbody>
+
+            </table>
+
+        </section>
+
+        <!--Lista de respostas-->
+        <section>
+
+            <h1> Lista de respostas das perguntas</h1>
+
+            <details>
+
+                    <summary> Clique aqui para ver as respostas</summary>
+
+                <ol>
+                    <li> Todos acima </li>
+                    <li> Azeitona </li>
+                </ol>
+            </details>
+        </section>
+
+        <!--formulário-->
+        <section>
+
+            <h1> Me dê seu feedback sobre o que achou do meu código</h1>
+            <form>
+
+                <fieldset>
+                    <legend>Sugestões e comentários</legend>
+                    <label for="Nome">Nome:</label>
+                    <input type="text" name="Nome" id="Nome"> <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email"> <br>
+                    <label for="comentários">Comentários:</label> <br>
+                    <textarea name="comentários" id="comentários" rows="4" cols="50" placeholder="Digite seu comentário aqui..."></textarea> <br>
+                        <button onclick="alert ('FEEDBACK ENVIADO')">Envie o feedback</button>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <p>&copy; Sobre mim. Todos os direitos reservados</p>
+        <p>Para conhecer me acompanhar no mundo da programação, <a href=" https://www.instagram.com/code.girlss/" target="_blank">clique aqui para me seguir </a></p>
+
+    </footer>
+
+</body>
+
+
+</html>
